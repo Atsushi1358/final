@@ -36,6 +36,11 @@ jobs:
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
 # change policy 9
-    - name: Deploy to Cloud Run
-      run: |
-        gcloud run deploy my-service --source . --region us-central1 --allow-unauthenticated --platform managed --verbosity=debug
+    # - name: Deploy to Cloud Run
+    #   run: |
+    #     gcloud run deploy my-service --source . --region us-central1 --allow-unauthenticated --platform managed --verbosity=debug
+    - id: 'deploy'
+      uses: 'google-github-actions/deploy-cloudrun@v2'
+      with:
+        service: 'hello-cloud-run'
+        image: 'gcr.io/cloudrun/hello'
