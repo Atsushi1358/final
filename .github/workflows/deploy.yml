@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Adjust this to match your main branch
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   deploy:
     name: Deploy
