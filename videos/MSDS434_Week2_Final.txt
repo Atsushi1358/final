@@ -1,0 +1,14 @@
+For my final project, I am considering leveraging the Iowa Liquor Retail Sales dataset available through Google Cloud. This extensive dataset, boasting over 28.2 million rows, encompasses detailed information such as Invoice/Item Number, Date, Store Number, and specifics about each product purchase including Item Description, Volume, etc. You can find the dataset here: [Iowa Liquor Retail Sales](https://console.cloud.google.com/marketplace/product/iowa-department-of-commerce/iowa-liquor-sales?project=buoyant-zodiac-278511).
+
+My primary interest lies in demand forecasting and inventory optimization within the retail sector. Utilizing BigQuery's public datasets, specifically the Iowa Liquor Retail Sale data, offers an intriguing opportunity to delve into these areas. The project's cornerstone will be to decipher future retail demand trends and optimize inventory management accordingly.
+
+Key Objectives:
+
+1. Predicting Future Retail Demand: The aim is to forecast the liquor retail demand in Iowa. This involves analyzing seasonal trends, economic indicators, and consumer purchasing patterns to anticipate future sales volumes.
+    
+2. Optimizing Inventory Management: Based on demand predictions, the project will explore strategies for inventory optimization to strike a balance between overstocking and understocking, thus enhancing sales efficiency.
+    
+
+Role of GitHub in Application Development:
+
+GitHub will play a pivotal role in the software development lifecycle of this project. It will be instrumental for: Continuous Integration and Delivery (CI/CD). GitHub facilitates CI/CD practices. By integrating with services like Travis CI, it ensures that every change made to the codebase is automatically tested and deployed, maintaining a consistent and error-free development process. This integration is crucial for developing and updating the application continuously without disrupting the service (Andrawos and Helmich 2017).
