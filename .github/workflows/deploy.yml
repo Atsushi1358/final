@@ -20,7 +20,7 @@ jobs:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
         service_account_key: ${{ secrets.GCP_SA_KEY }}
         export_default_credentials: true
-
+# change policy
     - name: Deploy to Cloud Run
       run: |
         gcloud run deploy my-service --source . --region us-central1 --allow-unauthenticated --platform managed
