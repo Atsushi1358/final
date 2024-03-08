@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to Cloud Run
       run: |
-        gcloud beta run deploy my-service --source . --region us-central1 --allow-unauthenticated --platform managed
+        gcloud run deploy my-service --source . --region us-central1 --allow-unauthenticated --platform managed
